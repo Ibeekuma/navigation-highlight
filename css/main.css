@@ -20,7 +20,7 @@ h1 {
   margin: .3em;
   text-align: center;
   color: #b20953;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
 }
 
@@ -60,7 +60,7 @@ footer {
 
 h2 {
   color: #b20953;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
 }
 
@@ -71,5 +71,5 @@ main {
 
 img {
   width: 100%;
-  display: inline-block;
+  display: block;
 }
