@@ -50,3 +50,9 @@ footer {
   text-align: center;
   padding:.75em;
 }
+
+h2 {
+  color: #b20953;
+  font-family: sigmar one, sans-serif;
+  font-size: 1.875rem;
+}
