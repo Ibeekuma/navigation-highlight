@@ -8,12 +8,12 @@ html {
 }
 
 body {
-  margin: 0:
+  margin:.3em;
 }
 
 header {
   background-color: #ffe500;
-  padding: 2em 0;
+  padding: 2em .5em 3em;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
   margin:.3em;
   list-style-type: none;
   text-align: center;
-  padding:0
+  padding: 0;
 }
 .nav li {
   display: inline-block;
@@ -36,7 +36,7 @@ h1 {
 .nav a {
   color: white;
   display: inline-block;
-  padding: .75em .75em;
+  padding: .75em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
