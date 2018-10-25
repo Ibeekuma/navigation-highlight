@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia";
+  font-family: Georgia;
 }
 
 *, *::before, *::after {
@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin:.3em;
+  margin: .3em;
 }
 
 header {
@@ -17,18 +17,20 @@ header {
 }
 
 h1 {
-  margin:.3em;
+  margin: .3em;
   text-align: center;
   color: #b20953;
-  font-family: Sigmar One, cursive;
+  font-family: 'Sigmar One', cursive;
   font-size: 3rem;
 }
+
 .nav {
-  margin:.3em;
+  margin: .3em;
   list-style-type: none;
   text-align: center;
   padding: 0;
 }
+
 .nav li {
   display: inline-block;
 }
@@ -53,12 +55,12 @@ h1 {
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding:.75em;
+  padding: .75em;
 }
 
 h2 {
   color: #b20953;
-  font-family: Sigmar One, cursive;
+  font-family: 'Sigmar One', cursive;
   font-size: 1.875rem;
 }
 
