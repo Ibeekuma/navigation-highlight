@@ -14,23 +14,23 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: .2em;
+  padding: .3em;
 }
 
 h1 {
-  margin: 0;
+  margin: .4em;
   text-align: center;
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
-  padding-bottom: .3em;
+  padding-bottom: .2em;
 }
 
 .nav {
   margin: .3em;
   list-style-type: none;
   text-align: center;
-  padding: 0;
+  padding: 0 .75em;
 }
 
 .nav li {
