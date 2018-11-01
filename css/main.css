@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: Georgia;
-  line-height: 1.5rem;
+  line-height: 1.5;
+  background-color: white;
 }
 
 *, *::before, *::after {
@@ -14,23 +15,23 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: .3em;
 }
 
 h1 {
-  margin: .4em;
+  margin: 0;
   text-align: center;
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
-  padding-bottom: .2em;
 }
 
 .nav {
-  margin: .3em;
+  margin: 0;
   list-style-type: none;
   text-align: center;
-  padding: 0 .75em;
+  padding: 0;
+  padding-bottom: .3em;
+  font-size: 1.125rem;
 }
 
 .nav li {
@@ -67,7 +68,6 @@ h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
-  padding: .2em;
 }
 
 p {
@@ -80,7 +80,7 @@ p {
 img {
   width: 100%;
   display: block;
-  padding: .75em;
+  padding: 0 .75em;
 }
 
 .img {
