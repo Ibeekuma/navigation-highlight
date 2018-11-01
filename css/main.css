@@ -14,15 +14,16 @@ body {
 
 header {
   background-color: #ffe500;
-  padding: 2em .5em 3em;
+  padding: .2em;
 }
 
 h1 {
-  margin: .3em;
+  margin: 0;
   text-align: center;
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
+  padding-bottom: .3em;
 }
 
 .nav {
@@ -34,15 +35,17 @@ h1 {
 
 .nav li {
   display: inline-block;
+  padding-bottom: 0;
 }
 
 .nav a {
   color: white;
   display: inline-block;
-  padding: .75em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
+  margin: 0;
 }
 
 .nav a:hover {
@@ -64,6 +67,7 @@ h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
+  padding: .2em;
 }
 
 p {
@@ -74,4 +78,11 @@ p {
 img {
   width: 100%;
   display: block;
+}
+
+.img {
+  max-width: 25em;
+  display: inline-block;
+  padding: .75em;
+  vertical-align: middle;
 }
